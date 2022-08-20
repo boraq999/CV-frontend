@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: tahoma;
+    list-style: none;
+}
+
+.container{
+    margin: 50px auto;
+    color: #292626;
+    width: 500px;
+}
+
+.tabs{
+    display: flex;
+}
+.tabs li{
+    background: rgb(241, 237, 237);
+    padding: 5px 10px;
+    border-right: 2px solid white;
+    cursor: pointer;
+    font-size: 25px;
+    text-transform: capitalize;
+    transition: 0.6s;
+}
+.tabs li.active{
+    background: #ddd;
+}
+.content > div {
+    background: #ddd;
+    padding: 30px;
+    font-size: 23px;
+    text-transform: capitalize;
+    transition: 0.6s;
+}
+.content > div:not(:first-child) {
+    display: none;
+}

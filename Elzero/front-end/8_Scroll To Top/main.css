@@ -1,0 +1,29 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
+    /* font-family: Tahoma; */
+    /* font-family: sans-serif; */
+}
+
+body{
+    height: 520vh;
+}
+
+span{
+    background: #373aec;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    right: -50px;
+    bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+span.show{
+    right: 10px;
+}

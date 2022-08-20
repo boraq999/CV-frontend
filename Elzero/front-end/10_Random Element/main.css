@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: tahoma;
+}
+
+body{
+    background: #262838;
+    color: white;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    border: 1px solid;
+    text-transform: capitalize;
+    width: 350px;
+    text-align: center;
+}
+.container .btn{
+    font-size: 35px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background: white;
+    color: #262838;
+    user-select: none;
+    transition: 0.6s;
+}
+.container .btn:hover{
+    background: #262838;
+    color: white;
+    border-bottom: 2px solid;
+}
+.container .card{
+    /* background: red; */
+    padding: 20px;
+    font-size: 25px;
+    display: flex;
+}
+.card ul{
+    width: 150px;
+}
+.card ul li{
+    padding: 5px;
+}
+.card .value{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    /* font-family: tahoma; */
+}
+
+.container{
+    min-height: 100vh;
+    background: #1c611c;
+    display: grid;
+    place-items: center;
+}
+
+.product{
+    width: 300px;
+    text-align: center;
+    box-shadow: 1px 2px 5px 0 #0f310f;
+    padding: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.product h2{
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #0f310f;
+    margin: auto;
+    font-size: 30px;
+    transition: 0.6s;
+}
+
+.product h3{
+    padding: 20px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.product span{
+    line-height: 1.6;
+    font-size: 18px;
+    color: white;
+}
+
+/* make this to remove h2 border*/
+.product:hover{
+    background-color: white;
+    transition: 2s;
+}
+
+.product:hover h2{
+    box-shadow: 0 0 05px 400px white;
+}
+.product:hover h3,
+.product:hover span{
+    color: #0f310f;
+    transition: 0.6s;
+
+}

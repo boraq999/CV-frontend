@@ -1,0 +1,66 @@
+
+
+.form,
+.tasks{
+    min-height: 30px;
+    width: 350px;
+    margin: 15px auto;
+    background-color: rgba(151, 129, 129, 0.952);
+    padding: 15px;
+    border-radius: 10px;
+}
+.info{
+    width: 70%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+}
+.add{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    background-color: rgba(255, 0, 0, 0.842);
+    color: white;
+    transition: 0.6s;
+}
+.add:hover{
+    background-color: rgb(179, 3, 3);
+    cursor: pointer;
+}
+/* .tasks{
+    min-height: 30px;
+    width: 350px;
+    background-color: cadetblue;
+    margin: auto;
+} */
+
+.dad{
+    color: white; 
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    font-size: 19px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.delet{
+    background-color: red;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.dad span{
+    display: block;
+    width: 60%;
+    height: 20px;
+    /* background-color: rgb(178 161 161); */
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+}

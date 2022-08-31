@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: tahoma;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+section:first-child{background-color: #007500;}
+section:nth-child(2){background-color: #353535;}
+section:nth-child(3){background-color: #0085ff;}
+
+.nums{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+}
+.nums .num{
+    flex: 1;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+    margin: 1px;
+}

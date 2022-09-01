@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: tahoma;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #353535;
+    display: grid;
+    place-items: center;
+}
+
+div{
+    position: relative;
+}
+
+input{
+    width: 400px;
+    padding: 15px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 3px solid;
+}
+input:focus{
+    outline: none;
+}
+
+.progress{
+    width: 0%;
+    height: 3px;
+    margin-top: -3px;
+    position: relative;
+    background-color: red;
+    transition: 0.3s;
+}
+
+span{
+    color: white;
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+}
